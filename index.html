@@ -15,12 +15,12 @@
   </head>
   <body class="w-full min-h-screen bg-black">
     <!--  Navbar  -->
-    <nav class="w-full relative top-0 border-2 text-center">
+    <nav class="w-full border-2 text-cente">
       <div
-        class="container mx-auto flex items-center justify-between py-4 px-8 md:px-0"
+        class="container mx-auto flex items-center justify-between py-4 px-8 md:px-0 relative top-0 "
       >
         <h2 class="font-bold text-2xl text-white">Nisha</h2>
-        <div class="hidden md:flex gap-8 items-center">
+        <div class="hidden md:flex gap-8 items-center ">
           <a
             class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
             href="#"
@@ -31,19 +31,7 @@
             class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
             href="#"
           >
-            About</a
-          >
-          <a
-            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
-            href="#"
-          >
             Projects
-          </a>
-          <a
-            class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
-            href="#"
-          >
-            Skills
           </a>
           <a
             class="text-[1rem] text-slate-50 font-semibold duration-300 hover:text-slate-300"
@@ -73,7 +61,7 @@
     </nav>
     <div
       id="smNav"
-      class="absolute bg-black w-full items-center text-center py-4 hidden flex-col top-[5rem]"
+      class=" bg-black absolute z-index: 10 backdrop-filter: blur(16px) w-full items-center text-center py-4 hidden flex-col top-[5rem]"
     >
       <a
         class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
@@ -81,12 +69,6 @@
       >
         Home
       </a>
-      <a
-        class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
-        href="#"
-      >
-        About</a
-      >
       <a
         class="text-[1rem] text-slate-300 py-2 duration-400 w-full font-semibold hover:text-slate-50 hover:bg-blue-300"
         href="#"
@@ -205,7 +187,7 @@
 <section class="w-full mt-[4rem] text-white min-h-screen place-items-center ">
   <h2 class="text-center text-5xl font-sans mb-8 font-semibold " >Connect Me</h2>
   <div class="container mx-auto w-[95%] min-h-96 grid grid-cols-1 md:grid-cols-2 p-4 gap-8 md:w-[70%] sm:w-[85%]   " >
-<div class="flex flex-col gap-8 mr-6">
+<div class="flex flex-col gap-8 mr-6 mt-12">
   <div class="flex items-center gap-4 shadow shadow-2xl bg-slate-800 p-2 px-8 rounded-lg 	word-break: break-all">
     <div class="bg-neutral-700 text-white w-fit px-4 py-2.5 text-2xl rounded-full shadow-md ">
       <i class="ri-phone-fill"></i> 
@@ -242,7 +224,35 @@
 </section>
 
 <!--  footer section  -->
-<section class="w-full mt-[3rem]  text-white h-44 bg-blue-300 flex flex-col justify-center place-items-center  ">
+<section class="w-full mt-[3rem]  text-white h-54 bg-neutral-950 flex flex-col justify-center place-items-center  ">
+  <div class="container grid grid-cols-1 gap-4 sm:grid-cols-2 py-2 md:grid-cols-3 lg:grid-cols-4  text-center my-2">
+    <div class="flex flex-col gap-2">
+      <h2 class="text-xl ">Nisha Nanaware</h2>
+      <span class="text-slate-300 ">A freelance wed designer and developer from Ahemadnagar,Maharashtra. I always make website thet have unique design and also have a good performance rate.  </span>
+      </div>
+      <div class="flex flex-col gap-2">
+      <h2 class="text-xl  ">Important links</h2>
+      <h3 class="text-slate-300">Home</h3>
+      <h3 class="text-slate-300">Projects</h3>
+      <h3 class="text-slate-300">Testimonial</h3>
+      <h3 class="text-slate-300">Connect Me</h3>
+      </div>
+      <div class="flex flex-col gap-2">
+      <h2 class="text-xl  ">Contact Info</h2>
+      <h3 class="text-slate-300">+8421803765 </h3>
+      <h3 class="text-slate-300">nanawarenisha49@gmail.com</h3>
+      <h3 class="text-slate-300">karjat, Ahemadnagar, Maharashtra.</h3>
+      </div>
+      <div class="flex flex-col gap-2">
+        <h2 class="text-xl  ">social links</h2>
+      <h3 class="text-slate-300">GitHub</h3>
+      <h3 class="text-slate-300">LinkedIn</h3>
+      <h3 class="text-slate-300">Twitter</h3>
+      
+      </div>
+
+  </div>
+  </section>
 
     <script src="./index.js"></script>
   </body>
